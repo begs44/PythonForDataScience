@@ -52,7 +52,7 @@ import pandas as pd
 
 # Soru 1: persona.csv dosyasını okutunuz ve veri seti ile ilgili genel bilgileri gösteriniz.
 pd.set_option("display.max_rows", None)
-df = pd.read_csv('Modül_1_Veri_Bilimi_için_Python_Programlama/Part_2_Veri_Bilimi_için_Python_Programlama/Kural_Tabanli_Siniflandirma/persona.csv')
+df = pd.read_csv('rule_based_classification/persona.csv')
 df.head()
 df.shape
 df.info()
